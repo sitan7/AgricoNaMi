@@ -1,0 +1,120 @@
+.head{
+    height: 7rem;
+    background: linear-gradient(#111f0c,#69aa4f);
+    font-family: 'Shizuru', cursive;
+}
+.botonhead{
+
+    margin: 5px;
+}
+.contendedorBoton{
+    background: #69aa4f;
+}
+h1, h2{
+    color: rgb(240, 241, 255);
+    font-family: 'Roboto', sans-serif;  
+    font-size: 30px;
+}
+p{
+    color: rgb(240, 241, 255);
+    font-family: 'Roboto', sans-serif;  
+}
+.fondoCard{
+    background-color: #69aa4f;
+}
+.imgHead{
+    max-width: 12rem;
+    float: left;
+    
+}
+
+
+/*------------------------------video----------------------------------------------------------*/
+.ContVideo{
+    background: linear-gradient(#69aa4f,#355c23 );
+}
+.cajvideo{
+    height: 23rem;
+}
+.video{   
+    width: 90%;
+}
+/*--------------------------------Tarjetas--------------------------------------------------------*/
+.imgCard{
+    height: 25rem;
+    margin-top: 50px;
+}
+.tarj1{
+    height: 30rem;
+    background-image: url(../img/portatil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tarj2{
+    height: 30rem;
+    background-image:url(../img/Web.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tarj3{
+    height: 30rem;
+    background-image:url(../img/Gamer.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tarj4{
+    height: 30rem;
+    background-image:url(../img/Servidor.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tarj5{
+    height: 30rem;
+    background-image:url(../img/bases.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+.tarj1, .tarj2, .tarj3, .tarj4, .tarj5{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.tarj1 p, .tarj2 p, .tarj3 p, .tarj4 p, .tarj5 p{
+    /* background-color: #e5e8ff77; */
+    border-radius: 5px;
+    color: #f0f0f0;
+    font-size: 5;
+    font-weight: 600;
+}
+.tarj1 h2, .tarj2 h2, .tarj3 h2, .tarj4 h2, .tarj5 h2{
+    /* background-color: #e5e8ff77; */
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 5;
+    font-weight: 600;
+}
+/*-------------------formulario----------------------------------------------------------------*/
+.correo{
+    height: 25rem;
+    background: linear-gradient(#355c23,#203815);
+    color: aliceblue;
+}
+.textForm{
+    text-align: justify;
+}
+/*------------------------------footer----------------------------------------------------------*/
+.footer{
+    background: linear-gradient(#203815,#111f0c );
+    border-top: 1px solid rgb(99, 99, 99);
+    color: aliceblue;
+    width: 100%;
+}
+.img-redes{
+    
+    max-width: 42px;
+}
